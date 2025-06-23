@@ -189,8 +189,7 @@ interface ScrapingResult {
 
 ### 1. Сбор по всем регионам
 ```bash
-npm run network-scraper          # По всем регионам
-npm run network-scraper global   # То же самое
+npm run network-scraper global   # По всем регионам
 ```
 Обрабатывает все регионы из файла `results/regions-simple.json` с паузами между регионами.
 
