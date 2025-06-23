@@ -43,10 +43,6 @@ npm run test-region list
 import { runNetworkClubsScraping } from './network-clubs-scraper';
 import { yandexMapsParser } from './yandex-maps-parser';
 
-// Запуск с 20 прокрутками
-const result = await runNetworkClubsScraping(yandexMapsParser, 20);
-console.log(`Собрано ${result.totalFound} клубов`);
-```
 
 ### Создание собственного парсера
 
