@@ -1,0 +1,937 @@
+[
+  {
+    "id": 1,
+    "name": "moscow-and-moscow-oblast",
+    "url": "https://yandex.ru/maps/1/moscow-and-moscow-oblast/category/computer_club/"
+  },
+  {
+    "id": 2,
+    "name": "saint-petersburg",
+    "url": "https://yandex.ru/maps/2/saint-petersburg/category/computer_club/"
+  },
+  {
+    "id": 4,
+    "name": "belgorod",
+    "url": "https://yandex.ru/maps/4/belgorod/category/computer_club/"
+  },
+  {
+    "id": 5,
+    "name": "ivanovo",
+    "url": "https://yandex.ru/maps/5/ivanovo/category/computer_club/"
+  },
+  {
+    "id": 6,
+    "name": "kaluga",
+    "url": "https://yandex.ru/maps/6/kaluga/category/computer_club/"
+  },
+  {
+    "id": 7,
+    "name": "kostroma",
+    "url": "https://yandex.ru/maps/7/kostroma/category/computer_club/"
+  },
+  {
+    "id": 8,
+    "name": "kursk",
+    "url": "https://yandex.ru/maps/8/kursk/category/computer_club/"
+  },
+  {
+    "id": 9,
+    "name": "lipetsk",
+    "url": "https://yandex.ru/maps/9/lipetsk/category/computer_club/"
+  },
+  {
+    "id": 10,
+    "name": "orel",
+    "url": "https://yandex.ru/maps/10/orel/category/computer_club/"
+  },
+  {
+    "id": 11,
+    "name": "ryazan",
+    "url": "https://yandex.ru/maps/11/ryazan/category/computer_club/"
+  },
+  {
+    "id": 12,
+    "name": "smolensk",
+    "url": "https://yandex.ru/maps/12/smolensk/category/computer_club/"
+  },
+  {
+    "id": 13,
+    "name": "tambov",
+    "url": "https://yandex.ru/maps/13/tambov/category/computer_club/"
+  },
+  {
+    "id": 15,
+    "name": "tula",
+    "url": "https://yandex.ru/maps/15/tula/category/computer_club/"
+  },
+  {
+    "id": 16,
+    "name": "yaroslavl",
+    "url": "https://yandex.ru/maps/16/yaroslavl/category/computer_club/"
+  },
+  {
+    "id": 17,
+    "name": "northwestern-federal-district",
+    "url": "https://yandex.ru/maps/17/northwestern-federal-district/category/computer_club/"
+  },
+  {
+    "id": 18,
+    "name": "petrozavodsk",
+    "url": "https://yandex.ru/maps/18/petrozavodsk/category/computer_club/"
+  },
+  {
+    "id": 19,
+    "name": "syktyvkar",
+    "url": "https://yandex.ru/maps/19/syktyvkar/category/computer_club/"
+  },
+  {
+    "id": 20,
+    "name": "arkhangelsk",
+    "url": "https://yandex.ru/maps/20/arkhangelsk/category/computer_club/"
+  },
+  {
+    "id": 21,
+    "name": "vologda",
+    "url": "https://yandex.ru/maps/21/vologda/category/computer_club/"
+  },
+  {
+    "id": 22,
+    "name": "kaliningrad",
+    "url": "https://yandex.ru/maps/22/kaliningrad/category/computer_club/"
+  },
+  {
+    "id": 23,
+    "name": "murmansk",
+    "url": "https://yandex.ru/maps/23/murmansk/category/computer_club/"
+  },
+  {
+    "id": 24,
+    "name": "veliky-novgorod",
+    "url": "https://yandex.ru/maps/24/veliky-novgorod/category/computer_club/"
+  },
+  {
+    "id": 25,
+    "name": "pskov",
+    "url": "https://yandex.ru/maps/25/pskov/category/computer_club/"
+  },
+  {
+    "id": 26,
+    "name": "southern-federal-district",
+    "url": "https://yandex.ru/maps/26/southern-federal-district/category/computer_club/"
+  },
+  {
+    "id": 28,
+    "name": "makhachkala",
+    "url": "https://yandex.ru/maps/28/makhachkala/category/computer_club/"
+  },
+  {
+    "id": 30,
+    "name": "nalchik",
+    "url": "https://yandex.ru/maps/30/nalchik/category/computer_club/"
+  },
+  {
+    "id": 33,
+    "name": "vladikavkaz",
+    "url": "https://yandex.ru/maps/33/vladikavkaz/category/computer_club/"
+  },
+  {
+    "id": 35,
+    "name": "krasnodar",
+    "url": "https://yandex.ru/maps/35/krasnodar/category/computer_club/"
+  },
+  {
+    "id": 36,
+    "name": "stavropol",
+    "url": "https://yandex.ru/maps/36/stavropol/category/computer_club/"
+  },
+  {
+    "id": 37,
+    "name": "astrahan",
+    "url": "https://yandex.ru/maps/37/astrahan/category/computer_club/"
+  },
+  {
+    "id": 38,
+    "name": "volgograd",
+    "url": "https://yandex.ru/maps/38/volgograd/category/computer_club/"
+  },
+  {
+    "id": 39,
+    "name": "rostov-na-donu",
+    "url": "https://yandex.ru/maps/39/rostov-na-donu/category/computer_club/"
+  },
+  {
+    "id": 40,
+    "name": "volga-federal-district",
+    "url": "https://yandex.ru/maps/40/volga-federal-district/category/computer_club/"
+  },
+  {
+    "id": 41,
+    "name": "yoshkar-ola",
+    "url": "https://yandex.ru/maps/41/yoshkar-ola/category/computer_club/"
+  },
+  {
+    "id": 42,
+    "name": "saransk",
+    "url": "https://yandex.ru/maps/42/saransk/category/computer_club/"
+  },
+  {
+    "id": 43,
+    "name": "kazan",
+    "url": "https://yandex.ru/maps/43/kazan/category/computer_club/"
+  },
+  {
+    "id": 44,
+    "name": "izhevsk",
+    "url": "https://yandex.ru/maps/44/izhevsk/category/computer_club/"
+  },
+  {
+    "id": 45,
+    "name": "cheboksary",
+    "url": "https://yandex.ru/maps/45/cheboksary/category/computer_club/"
+  },
+  {
+    "id": 46,
+    "name": "kirov",
+    "url": "https://yandex.ru/maps/46/kirov/category/computer_club/"
+  },
+  {
+    "id": 47,
+    "name": "nizhny-novgorod",
+    "url": "https://yandex.ru/maps/47/nizhny-novgorod/category/computer_club/"
+  },
+  {
+    "id": 48,
+    "name": "orenburg",
+    "url": "https://yandex.ru/maps/48/orenburg/category/computer_club/"
+  },
+  {
+    "id": 49,
+    "name": "penza",
+    "url": "https://yandex.ru/maps/49/penza/category/computer_club/"
+  },
+  {
+    "id": 50,
+    "name": "perm",
+    "url": "https://yandex.ru/maps/50/perm/category/computer_club/"
+  },
+  {
+    "id": 51,
+    "name": "samara",
+    "url": "https://yandex.ru/maps/51/samara/category/computer_club/"
+  },
+  {
+    "id": 52,
+    "name": "ural-federal-district",
+    "url": "https://yandex.ru/maps/52/ural-federal-district/category/computer_club/"
+  },
+  {
+    "id": 53,
+    "name": "kurgan",
+    "url": "https://yandex.ru/maps/53/kurgan/category/computer_club/"
+  },
+  {
+    "id": 54,
+    "name": "yekaterinburg",
+    "url": "https://yandex.ru/maps/54/yekaterinburg/category/computer_club/"
+  },
+  {
+    "id": 55,
+    "name": "tyumen",
+    "url": "https://yandex.ru/maps/55/tyumen/category/computer_club/"
+  },
+  {
+    "id": 56,
+    "name": "chelyabinsk",
+    "url": "https://yandex.ru/maps/56/chelyabinsk/category/computer_club/"
+  },
+  {
+    "id": 57,
+    "name": "khanty-mansiysk",
+    "url": "https://yandex.ru/maps/57/khanty-mansiysk/category/computer_club/"
+  },
+  {
+    "id": 58,
+    "name": "salekhard",
+    "url": "https://yandex.ru/maps/58/salekhard/category/computer_club/"
+  },
+  {
+    "id": 59,
+    "name": "siberian-federal-district",
+    "url": "https://yandex.ru/maps/59/siberian-federal-district/category/computer_club/"
+  },
+  {
+    "id": 62,
+    "name": "krasnoyarsk",
+    "url": "https://yandex.ru/maps/62/krasnoyarsk/category/computer_club/"
+  },
+  {
+    "id": 63,
+    "name": "irkutsk",
+    "url": "https://yandex.ru/maps/63/irkutsk/category/computer_club/"
+  },
+  {
+    "id": 64,
+    "name": "kemerovo",
+    "url": "https://yandex.ru/maps/64/kemerovo/category/computer_club/"
+  },
+  {
+    "id": 65,
+    "name": "novosibirsk",
+    "url": "https://yandex.ru/maps/65/novosibirsk/category/computer_club/"
+  },
+  {
+    "id": 66,
+    "name": "omsk",
+    "url": "https://yandex.ru/maps/66/omsk/category/computer_club/"
+  },
+  {
+    "id": 67,
+    "name": "tomsk",
+    "url": "https://yandex.ru/maps/67/tomsk/category/computer_club/"
+  },
+  {
+    "id": 68,
+    "name": "chita",
+    "url": "https://yandex.ru/maps/68/chita/category/computer_club/"
+  },
+  {
+    "id": 73,
+    "name": "far-eastern-federal-district",
+    "url": "https://yandex.ru/maps/73/far-eastern-federal-district/category/computer_club/"
+  },
+  {
+    "id": 74,
+    "name": "yakutsk",
+    "url": "https://yandex.ru/maps/74/yakutsk/category/computer_club/"
+  },
+  {
+    "id": 75,
+    "name": "vladivostok",
+    "url": "https://yandex.ru/maps/75/vladivostok/category/computer_club/"
+  },
+  {
+    "id": 76,
+    "name": "khabarovsk",
+    "url": "https://yandex.ru/maps/76/khabarovsk/category/computer_club/"
+  },
+  {
+    "id": 77,
+    "name": "blagoveshchensk",
+    "url": "https://yandex.ru/maps/77/blagoveshchensk/category/computer_club/"
+  },
+  {
+    "id": 78,
+    "name": "petropavlovsk",
+    "url": "https://yandex.ru/maps/78/petropavlovsk/category/computer_club/"
+  },
+  {
+    "id": 79,
+    "name": "magadan",
+    "url": "https://yandex.ru/maps/79/magadan/category/computer_club/"
+  },
+  {
+    "id": 80,
+    "name": "yuzhno-sakhalinsk",
+    "url": "https://yandex.ru/maps/80/yuzhno-sakhalinsk/category/computer_club/"
+  },
+  {
+    "id": 84,
+    "name": "united-states",
+    "url": "https://yandex.ru/maps/84/united-states/category/computer_club/"
+  },
+  {
+    "id": 86,
+    "name": "atlanta",
+    "url": "https://yandex.ru/maps/86/atlanta/category/computer_club/"
+  },
+  {
+    "id": 87,
+    "name": "washington",
+    "url": "https://yandex.ru/maps/87/washington/category/computer_club/"
+  },
+  {
+    "id": 89,
+    "name": "detroit",
+    "url": "https://yandex.ru/maps/89/detroit/category/computer_club/"
+  },
+  {
+    "id": 90,
+    "name": "san-francisco",
+    "url": "https://yandex.ru/maps/90/san-francisco/category/computer_club/"
+  },
+  {
+    "id": 91,
+    "name": "seattle",
+    "url": "https://yandex.ru/maps/91/seattle/category/computer_club/"
+  },
+  {
+    "id": 93,
+    "name": "argentina",
+    "url": "https://yandex.ru/maps/93/argentina/category/computer_club/"
+  },
+  {
+    "id": 94,
+    "name": "brazil",
+    "url": "https://yandex.ru/maps/94/brazil/category/computer_club/"
+  },
+  {
+    "id": 95,
+    "name": "canada",
+    "url": "https://yandex.ru/maps/95/canada/category/computer_club/"
+  },
+  {
+    "id": 96,
+    "name": "germany",
+    "url": "https://yandex.ru/maps/96/germany/category/computer_club/"
+  },
+  {
+    "id": 97,
+    "name": "heidelberg",
+    "url": "https://yandex.ru/maps/97/heidelberg/category/computer_club/"
+  },
+  {
+    "id": 98,
+    "name": "cologne",
+    "url": "https://yandex.ru/maps/98/cologne/category/computer_club/"
+  },
+  {
+    "id": 99,
+    "name": "munich",
+    "url": "https://yandex.ru/maps/99/munich/category/computer_club/"
+  },
+  {
+    "id": 100,
+    "name": "frankfurt-am-main",
+    "url": "https://yandex.ru/maps/100/frankfurt-am-main/category/computer_club/"
+  },
+  {
+    "id": 101,
+    "name": "stuttgart",
+    "url": "https://yandex.ru/maps/101/stuttgart/category/computer_club/"
+  },
+  {
+    "id": 102,
+    "name": "united-kingdom",
+    "url": "https://yandex.ru/maps/102/united-kingdom/category/computer_club/"
+  },
+  {
+    "id": 111,
+    "name": "europe",
+    "url": "https://yandex.ru/maps/111/europe/category/computer_club/"
+  },
+  {
+    "id": 113,
+    "name": "austria",
+    "url": "https://yandex.ru/maps/113/austria/category/computer_club/"
+  },
+  {
+    "id": 114,
+    "name": "belgium",
+    "url": "https://yandex.ru/maps/114/belgium/category/computer_club/"
+  },
+  {
+    "id": 115,
+    "name": "bulgaria",
+    "url": "https://yandex.ru/maps/115/bulgaria/category/computer_club/"
+  },
+  {
+    "id": 116,
+    "name": "hungary",
+    "url": "https://yandex.ru/maps/116/hungary/category/computer_club/"
+  },
+  {
+    "id": 117,
+    "name": "lithuania",
+    "url": "https://yandex.ru/maps/117/lithuania/category/computer_club/"
+  },
+  {
+    "id": 118,
+    "name": "netherlands",
+    "url": "https://yandex.ru/maps/118/netherlands/category/computer_club/"
+  },
+  {
+    "id": 119,
+    "name": "norway",
+    "url": "https://yandex.ru/maps/119/norway/category/computer_club/"
+  },
+  {
+    "id": 120,
+    "name": "poland",
+    "url": "https://yandex.ru/maps/120/poland/category/computer_club/"
+  },
+  {
+    "id": 121,
+    "name": "slovakia",
+    "url": "https://yandex.ru/maps/121/slovakia/category/computer_club/"
+  },
+  {
+    "id": 122,
+    "name": "slovenia",
+    "url": "https://yandex.ru/maps/122/slovenia/category/computer_club/"
+  },
+  {
+    "id": 123,
+    "name": "finland",
+    "url": "https://yandex.ru/maps/123/finland/category/computer_club/"
+  },
+  {
+    "id": 124,
+    "name": "france",
+    "url": "https://yandex.ru/maps/124/france/category/computer_club/"
+  },
+  {
+    "id": 125,
+    "name": "czech-republic",
+    "url": "https://yandex.ru/maps/125/czech-republic/category/computer_club/"
+  },
+  {
+    "id": 126,
+    "name": "switzerland",
+    "url": "https://yandex.ru/maps/126/switzerland/category/computer_club/"
+  },
+  {
+    "id": 127,
+    "name": "sweden",
+    "url": "https://yandex.ru/maps/127/sweden/category/computer_club/"
+  },
+  {
+    "id": 129,
+    "name": "beer-sheva",
+    "url": "https://yandex.ru/maps/129/beer-sheva/category/computer_club/"
+  },
+  {
+    "id": 130,
+    "name": "jerusalem",
+    "url": "https://yandex.ru/maps/130/jerusalem/category/computer_club/"
+  },
+  {
+    "id": 131,
+    "name": "tel-aviv",
+    "url": "https://yandex.ru/maps/131/tel-aviv/category/computer_club/"
+  },
+  {
+    "id": 132,
+    "name": "haifa",
+    "url": "https://yandex.ru/maps/132/haifa/category/computer_club/"
+  },
+  {
+    "id": 134,
+    "name": "china",
+    "url": "https://yandex.ru/maps/134/china/category/computer_club/"
+  },
+  {
+    "id": 135,
+    "name": "south-korea",
+    "url": "https://yandex.ru/maps/135/south-korea/category/computer_club/"
+  },
+  {
+    "id": 137,
+    "name": "japan",
+    "url": "https://yandex.ru/maps/137/japan/category/computer_club/"
+  },
+  {
+    "id": 138,
+    "name": "australia-and-oceania",
+    "url": "https://yandex.ru/maps/138/australia-and-oceania/category/computer_club/"
+  },
+  {
+    "id": 139,
+    "name": "new-zealand",
+    "url": "https://yandex.ru/maps/139/new-zealand/category/computer_club/"
+  },
+  {
+    "id": 141,
+    "name": "dnipro",
+    "url": "https://yandex.ru/maps/141/dnipro/category/computer_club/"
+  },
+  {
+    "id": 143,
+    "name": "kyiv",
+    "url": "https://yandex.ru/maps/143/kyiv/category/computer_club/"
+  },
+  {
+    "id": 144,
+    "name": "lviv",
+    "url": "https://yandex.ru/maps/144/lviv/category/computer_club/"
+  },
+  {
+    "id": 145,
+    "name": "odesa",
+    "url": "https://yandex.ru/maps/145/odesa/category/computer_club/"
+  },
+  {
+    "id": 146,
+    "name": "simferopol",
+    "url": "https://yandex.ru/maps/146/simferopol/category/computer_club/"
+  },
+  {
+    "id": 147,
+    "name": "kharkiv",
+    "url": "https://yandex.ru/maps/147/kharkiv/category/computer_club/"
+  },
+  {
+    "id": 148,
+    "name": "mykolaiv",
+    "url": "https://yandex.ru/maps/148/mykolaiv/category/computer_club/"
+  },
+  {
+    "id": 149,
+    "name": "belarus",
+    "url": "https://yandex.ru/maps/149/belarus/category/computer_club/"
+  },
+  {
+    "id": 153,
+    "name": "brest",
+    "url": "https://yandex.ru/maps/153/brest/category/computer_club/"
+  },
+  {
+    "id": 154,
+    "name": "vitebsk",
+    "url": "https://yandex.ru/maps/154/vitebsk/category/computer_club/"
+  },
+  {
+    "id": 155,
+    "name": "gomel",
+    "url": "https://yandex.ru/maps/155/gomel/category/computer_club/"
+  },
+  {
+    "id": 157,
+    "name": "minsk",
+    "url": "https://yandex.ru/maps/157/minsk/category/computer_club/"
+  },
+  {
+    "id": 158,
+    "name": "mogilev",
+    "url": "https://yandex.ru/maps/158/mogilev/category/computer_club/"
+  },
+  {
+    "id": 159,
+    "name": "kazakhstan",
+    "url": "https://yandex.ru/maps/159/kazakhstan/category/computer_club/"
+  },
+  {
+    "id": 162,
+    "name": "almaty",
+    "url": "https://yandex.ru/maps/162/almaty/category/computer_club/"
+  },
+  {
+    "id": 163,
+    "name": "astana",
+    "url": "https://yandex.ru/maps/163/astana/category/computer_club/"
+  },
+  {
+    "id": 164,
+    "name": "karaganda",
+    "url": "https://yandex.ru/maps/164/karaganda/category/computer_club/"
+  },
+  {
+    "id": 165,
+    "name": "semey",
+    "url": "https://yandex.ru/maps/165/semey/category/computer_club/"
+  },
+  {
+    "id": 166,
+    "name": "cis",
+    "url": "https://yandex.ru/maps/166/cis/category/computer_club/"
+  },
+  {
+    "id": 167,
+    "name": "azerbaijan",
+    "url": "https://yandex.ru/maps/167/azerbaijan/category/computer_club/"
+  },
+  {
+    "id": 168,
+    "name": "armenia",
+    "url": "https://yandex.ru/maps/168/armenia/category/computer_club/"
+  },
+  {
+    "id": 169,
+    "name": "georgia",
+    "url": "https://yandex.ru/maps/169/georgia/category/computer_club/"
+  },
+  {
+    "id": 170,
+    "name": "turkmenistan",
+    "url": "https://yandex.ru/maps/170/turkmenistan/category/computer_club/"
+  },
+  {
+    "id": 171,
+    "name": "uzbekistan",
+    "url": "https://yandex.ru/maps/171/uzbekistan/category/computer_club/"
+  },
+  {
+    "id": 172,
+    "name": "ufa",
+    "url": "https://yandex.ru/maps/172/ufa/category/computer_club/"
+  },
+  {
+    "id": 177,
+    "name": "berlin",
+    "url": "https://yandex.ru/maps/177/berlin/category/computer_club/"
+  },
+  {
+    "id": 178,
+    "name": "hamburg",
+    "url": "https://yandex.ru/maps/178/hamburg/category/computer_club/"
+  },
+  {
+    "id": 179,
+    "name": "estonia",
+    "url": "https://yandex.ru/maps/179/estonia/category/computer_club/"
+  },
+  {
+    "id": 180,
+    "name": "serbia",
+    "url": "https://yandex.ru/maps/180/serbia/category/computer_club/"
+  },
+  {
+    "id": 181,
+    "name": "israel",
+    "url": "https://yandex.ru/maps/181/israel/category/computer_club/"
+  },
+  {
+    "id": 183,
+    "name": "asia",
+    "url": "https://yandex.ru/maps/183/asia/category/computer_club/"
+  },
+  {
+    "id": 187,
+    "name": "ukraine",
+    "url": "https://yandex.ru/maps/187/ukraine/category/computer_club/"
+  },
+  {
+    "id": 190,
+    "name": "pavlodar",
+    "url": "https://yandex.ru/maps/190/pavlodar/category/computer_club/"
+  },
+  {
+    "id": 191,
+    "name": "bryansk",
+    "url": "https://yandex.ru/maps/191/bryansk/category/computer_club/"
+  },
+  {
+    "id": 192,
+    "name": "vladimir",
+    "url": "https://yandex.ru/maps/192/vladimir/category/computer_club/"
+  },
+  {
+    "id": 193,
+    "name": "voronezh",
+    "url": "https://yandex.ru/maps/193/voronezh/category/computer_club/"
+  },
+  {
+    "id": 194,
+    "name": "saratov",
+    "url": "https://yandex.ru/maps/194/saratov/category/computer_club/"
+  },
+  {
+    "id": 195,
+    "name": "ulyanovsk",
+    "url": "https://yandex.ru/maps/195/ulyanovsk/category/computer_club/"
+  },
+  {
+    "id": 197,
+    "name": "barnaul",
+    "url": "https://yandex.ru/maps/197/barnaul/category/computer_club/"
+  },
+  {
+    "id": 198,
+    "name": "ulan-ude",
+    "url": "https://yandex.ru/maps/198/ulan-ude/category/computer_club/"
+  },
+  {
+    "id": 200,
+    "name": "los-angeles",
+    "url": "https://yandex.ru/maps/200/los-angeles/category/computer_club/"
+  },
+  {
+    "id": 202,
+    "name": "new-york",
+    "url": "https://yandex.ru/maps/202/new-york/category/computer_club/"
+  },
+  {
+    "id": 203,
+    "name": "denmark",
+    "url": "https://yandex.ru/maps/203/denmark/category/computer_club/"
+  },
+  {
+    "id": 204,
+    "name": "spain",
+    "url": "https://yandex.ru/maps/204/spain/category/computer_club/"
+  },
+  {
+    "id": 205,
+    "name": "italy",
+    "url": "https://yandex.ru/maps/205/italy/category/computer_club/"
+  },
+  {
+    "id": 206,
+    "name": "latvia",
+    "url": "https://yandex.ru/maps/206/latvia/category/computer_club/"
+  },
+  {
+    "id": 207,
+    "name": "kyrgyzstan",
+    "url": "https://yandex.ru/maps/207/kyrgyzstan/category/computer_club/"
+  },
+  {
+    "id": 208,
+    "name": "moldova",
+    "url": "https://yandex.ru/maps/208/moldova/category/computer_club/"
+  },
+  {
+    "id": 209,
+    "name": "tajikistan",
+    "url": "https://yandex.ru/maps/209/tajikistan/category/computer_club/"
+  },
+  {
+    "id": 210,
+    "name": "united-arab-emirates",
+    "url": "https://yandex.ru/maps/210/united-arab-emirates/category/computer_club/"
+  },
+  {
+    "id": 211,
+    "name": "australia",
+    "url": "https://yandex.ru/maps/211/australia/category/computer_club/"
+  },
+  {
+    "id": 214,
+    "name": "dolgoprudniy",
+    "url": "https://yandex.ru/maps/214/dolgoprudniy/category/computer_club/"
+  },
+  {
+    "id": 215,
+    "name": "dubna",
+    "url": "https://yandex.ru/maps/215/dubna/category/computer_club/"
+  },
+  {
+    "id": 216,
+    "name": "zelenograd",
+    "url": "https://yandex.ru/maps/216/zelenograd/category/computer_club/"
+  },
+  {
+    "id": 217,
+    "name": "pushino",
+    "url": "https://yandex.ru/maps/217/pushino/category/computer_club/"
+  },
+  {
+    "id": 219,
+    "name": "chernogolovka",
+    "url": "https://yandex.ru/maps/219/chernogolovka/category/computer_club/"
+  },
+  {
+    "id": 221,
+    "name": "chimkent",
+    "url": "https://yandex.ru/maps/221/chimkent/category/computer_club/"
+  },
+  {
+    "id": 223,
+    "name": "boston",
+    "url": "https://yandex.ru/maps/223/boston/category/computer_club/"
+  },
+  {
+    "id": 225,
+    "name": "russia",
+    "url": "https://yandex.ru/maps/225/russia/category/computer_club/"
+  },
+  {
+    "id": 235,
+    "name": "magnitogorsk",
+    "url": "https://yandex.ru/maps/235/magnitogorsk/category/computer_club/"
+  },
+  {
+    "id": 236,
+    "name": "naberezhnye-chelny",
+    "url": "https://yandex.ru/maps/236/naberezhnye-chelny/category/computer_club/"
+  },
+  {
+    "id": 237,
+    "name": "novokuznetsk",
+    "url": "https://yandex.ru/maps/237/novokuznetsk/category/computer_club/"
+  },
+  {
+    "id": 238,
+    "name": "novocherkassk",
+    "url": "https://yandex.ru/maps/238/novocherkassk/category/computer_club/"
+  },
+  {
+    "id": 239,
+    "name": "sochi",
+    "url": "https://yandex.ru/maps/239/sochi/category/computer_club/"
+  },
+  {
+    "id": 240,
+    "name": "togliatti",
+    "url": "https://yandex.ru/maps/240/togliatti/category/computer_club/"
+  },
+  {
+    "id": 241,
+    "name": "africa",
+    "url": "https://yandex.ru/maps/241/africa/category/computer_club/"
+  },
+  {
+    "id": 245,
+    "name": "arctic-and-antarctic",
+    "url": "https://yandex.ru/maps/245/arctic-and-antarctic/category/computer_club/"
+  },
+  {
+    "id": 246,
+    "name": "greece",
+    "url": "https://yandex.ru/maps/246/greece/category/computer_club/"
+  },
+  {
+    "id": 318,
+    "name": "universal",
+    "url": "https://yandex.ru/maps/318/universal/category/computer_club/"
+  },
+  {
+    "id": 349,
+    "name": "other-cities-in-the-region",
+    "url": "https://yandex.ru/maps/349/other-cities-in-the-region/category/computer_club/"
+  },
+  {
+    "id": 350,
+    "name": "universal",
+    "url": "https://yandex.ru/maps/350/universal/category/computer_club/"
+  },
+  {
+    "id": 381,
+    "name": "other",
+    "url": "https://yandex.ru/maps/381/other/category/computer_club/"
+  },
+  {
+    "id": 382,
+    "name": "the-all-russian",
+    "url": "https://yandex.ru/maps/382/the-all-russian/category/computer_club/"
+  },
+  {
+    "id": 413,
+    "name": "other-cities-in-the-region",
+    "url": "https://yandex.ru/maps/413/other-cities-in-the-region/category/computer_club/"
+  },
+  {
+    "id": 414,
+    "name": "universal",
+    "url": "https://yandex.ru/maps/414/universal/category/computer_club/"
+  },
+  {
+    "id": 445,
+    "name": "other-cities-in-the-region",
+    "url": "https://yandex.ru/maps/445/other-cities-in-the-region/category/computer_club/"
+  },
+  {
+    "id": 446,
+    "name": "universal",
+    "url": "https://yandex.ru/maps/446/universal/category/computer_club/"
+  },
+  {
+    "id": 477,
+    "name": "other-cities-in-the-region",
+    "url": "https://yandex.ru/maps/477/other-cities-in-the-region/category/computer_club/"
+  },
+  {
+    "id": 478,
+    "name": "universal",
+    "url": "https://yandex.ru/maps/478/universal/category/computer_club/"
+  }
+]
