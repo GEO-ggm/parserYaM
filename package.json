@@ -1,0 +1,33 @@
+{
+  "name": "playwright-ts-project",
+  "version": "1.0.0",
+  "description": "Playwright with TypeScript testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report",
+    "codegen": "npx playwright codegen",
+    "search": "npx playwright test tests/yandex-maps-search.spec.ts --reporter=list",
+    "search:headed": "npx playwright test tests/yandex-maps-search.spec.ts --headed --reporter=list",
+    "search:ui": "npx playwright test tests/yandex-maps-search.spec.ts --ui",
+    "test:region": "npx playwright test tests/region-test.spec.ts --headed --reporter=list",
+    "scrape-clubs": "npx ts-node scripts/clubs-scraper.ts",
+    "collect-regions": "npx ts-node scripts/regions-collector.ts",
+    "parse-regions-clubs": "npx ts-node scripts/regions-clubs-parser.ts",
+    "network-scraper": "npx ts-node scripts/run-network-scraper.ts ",
+    "test-region": "npx ts-node scripts/test-region.ts",
+    "list-regions": "npx ts-node scripts/test-region.ts list"
+  },
+  "keywords": ["playwright", "typescript", "testing", "e2e"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+} 
