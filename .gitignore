@@ -10,7 +10,7 @@ playwright-report/
 playwright/.cache/
 /results
 !results/regions-simple.json
-
+/release
 
 # Скомпилированные файлы
 dist/
