@@ -319,9 +319,6 @@ export class NetworkClubsScraper {
       // Выполняем несколько скроллов назад на карте для значительного изменения области
       await this.page.mouse.wheel(0, 500); // Больший скролл назад
       await this.page.waitForTimeout(500);
-      await this.page.mouse.wheel(0, 500); // Еще один скролл назад
-      
-      await this.page.waitForTimeout(1000);
 
       console.log('✅ Скролл назад по карте выполнен');
       return true;

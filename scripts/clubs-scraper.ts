@@ -91,8 +91,10 @@ export class ClubsScraper {
     
     let lastCount = 0;
     let stableCount = 0;
+    let noChangeCount = 0;
+    const MAX_NO_CHANGE = 2; // Максимальное количество итераций без изменений
     
-    for (let i = 0; i < 99; i++) { 
+    for (let i = 0; i < MAX_NO_CHANGE; i++) { 
       // Прокручиваем вниз
       await this.page.evaluate(() => {
         const searchResults = document.querySelector('.scroll__container');
@@ -122,7 +124,7 @@ export class ClubsScraper {
       // Проверяем, загружаются ли новые результаты
       if (currentCount === lastCount) {
         stableCount++;
-        if (stableCount >= 10) {
+        if (stableCount >= MAX_NO_CHANGE) {
           console.log('⏹️ Больше результатов не загружается');
           break;
         }
