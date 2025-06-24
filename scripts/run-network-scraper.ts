@@ -213,16 +213,41 @@ async function saveResults(result: any, suffix: string) {
 
 // Функция для генерации CSV
 function generateCSV(clubs: any[]): string {
-  const header = 'ID региона,Название региона,Название,Адрес,Полный адрес,Страна,Почтовый код,Телефон,Все телефоны,Сайт,Все сайты,Рейтинг,Отзывы,Количество оценок,Категории,Часы работы,Социальные сети,Широта,Долгота\n';
+  const header = 'ID региона,Название региона,Название,Адрес,Полный адрес,Страна,Почтовый код,Телефон,Все телефоны,Сайт,Все сайты,Рейтинг,Отзывы,Количество оценок,Категории,Часы работы,Социальные сети,Широта,Долгота,Фото,Ссылка на Яндекс.Карты\n';
   const rows = clubs.map(club => {
     const lat = club.coordinates?.lat || '';
     const lon = club.coordinates?.lon || '';
     const phones = club.phones?.join('; ') || club.phone || '';
     const websites = club.websites?.join('; ') || club.website || '';
     const categories = club.categories?.join('; ') || '';
-    const socialLinks = club.socialLinks?.map((link: any) => `${link.type}: ${link.url}`).join('; ') || '';
+    const socialLinks = club.socialLinks?.map((link: { type: any; url: any; }) => `${link.type}: ${link.url}`).join('; ') || '';
     
-    return `"${club.regionId || ''}","${(club.regionName || '').replace(/"/g, '""')}","${(club.name || '').replace(/"/g, '""')}","${(club.address || '').replace(/"/g, '""')}","${(club.fullAddress || '').replace(/"/g, '""')}","${(club.country || '').replace(/"/g, '""')}","${(club.postalCode || '').replace(/"/g, '""')}","${(club.phone || '').replace(/"/g, '""')}","${phones.replace(/"/g, '""')}","${(club.website || '').replace(/"/g, '""')}","${websites.replace(/"/g, '""')}","${club.rating || ''}","${club.reviews || ''}","${club.ratingCount || ''}","${categories.replace(/"/g, '""')}","${(club.workingHours || '').replace(/"/g, '""')}","${socialLinks.replace(/"/g, '""')}","${lat}","${lon}"`;
+    // Формируем ссылку на Яндекс.Карты
+    const yandexMapsUrl = (club.urlSeoname && club.urlId) 
+      ? `https://yandex.ru/maps/org/${club.urlSeoname}/${club.urlId}`
+      : '';
+    
+    return `"${club.regionId || ''}",` +
+           `"${(club.regionName || '').replace(/"/g, '""')}",` +
+           `"${(club.name || '').replace(/"/g, '""')}",` +
+           `"${(club.address || '').replace(/"/g, '""')}",` +
+           `"${(club.fullAddress || '').replace(/"/g, '""')}",` +
+           `"${(club.country || '').replace(/"/g, '""')}",` +
+           `"${(club.postalCode || '').replace(/"/g, '""')}",` +
+           `"${(club.phone || '').replace(/"/g, '""')}",` +
+           `"${phones.replace(/"/g, '""')}",` +
+           `"${(club.website || '').replace(/"/g, '""')}",` +
+           `"${websites.replace(/"/g, '""')}",` +
+           `"${club.rating || ''}",` +
+           `"${club.reviews || ''}",` +
+           `"${club.ratingCount || ''}",` +
+           `"${categories.replace(/"/g, '""')}",` +
+           `"${(club.workingHours || '').replace(/"/g, '""')}",` +
+           `"${socialLinks.replace(/"/g, '""')}",` +
+           `"${lat}",` +
+           `"${lon}",` +
+           `"${(club.photo || '').replace(/"/g, '""')}",` +
+           `"${yandexMapsUrl}"`;
   }).join('\n');
   
   return header + rows;

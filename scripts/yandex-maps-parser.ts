@@ -41,13 +41,75 @@ export class YandexMapsParser implements NetworkClubsParser {
     return !!(item.title && (item.address || item.description || item.fullAddress));
   }
 
+  private urlSeoname(item: any): string {
+    return item.seoname;
+  }
+
+  private urlId(item: any): string {
+    return item.id;
+  }
+
+  private findPhotoInObject(obj: any): string[] {
+    const photos: string[] = [];
+    
+    if (!obj || typeof obj !== 'object') return photos;
+
+    // Если это массив, ищем в каждом элементе
+    if (Array.isArray(obj)) {
+      for (const item of obj) {
+        const foundPhotos = this.findPhotoInObject(item);
+        photos.push(...foundPhotos);
+      }
+      return photos;
+    }
+
+    // Если есть поле photo, добавляем его
+    if (obj.photo) photos.push(obj.photo);
+
+    // Ищем в дочерних объектах
+    for (const key of Object.keys(obj)) {
+      const foundPhotos = this.findPhotoInObject(obj[key]);
+      photos.push(...foundPhotos);
+    }
+
+    return photos;
+  }
+
   private parseYandexItem(item: any): ClubData | null {
     try {
       const club: ClubData = {
         name: item.title || 'Название не найдено',
         address: item.address || item.description || item.fullAddress || 'Адрес не найден',
-        rawData: item // Сохраняем исходные данные для отладки
+        rawData: item
       };
+
+      // Извлекаем seoname и id для формирования ссылки
+      if (item.seoname) {
+        club.urlSeoname = item.seoname;
+      }
+      if (item.id) {
+        club.urlId = item.id;
+      }
+
+      // Ищем фото в порядке приоритета
+      if (item.photo) {
+        club.photo = item.photo;
+        console.log(`📸 Найдено фото в основном хендлере для ${club.name}: ${club.photo}`);
+      }
+      else if (item.photos && item.photos.urlTemplate) {
+        club.photo = item.photos.urlTemplate.replace('%s', 'L_height');
+        console.log(`📸 Найдено фото в urlTemplate для ${club.name}: ${club.photo}`);
+      }
+      else if (item.advert && item.advert.photo) {
+        club.photo = item.advert.photo;
+        console.log(`📸 Найдено фото в рекламе для ${club.name}: ${club.photo}`);
+      }
+
+      // Для отладки
+      console.log('Данные о фото:', {
+        name: club.name,
+        foundPhoto: club.photo || 'не найдено'
+      });
 
       // Извлекаем дополнительные поля из структуры Яндекс Карт
       

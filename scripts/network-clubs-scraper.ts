@@ -38,9 +38,12 @@ export interface ClubData {
     type: string;
     url: string;
   }>;
+  photo?: string;
   regionId?: number;
   regionName?: string;
   sourceRegionUrl?: string;
+  urlSeoname?: string;
+  urlId?: string;
   rawData?: any; // Исходные данные для отладки
 }
 
@@ -51,6 +54,7 @@ export interface SearchInfo {
 }
 
 interface ScrapingResult {
+  [x: string]: any;
   totalFound: number;
   clubs: ClubData[];
   searchInfo?: SearchInfo;
@@ -115,6 +119,12 @@ export class NetworkClubsScraper {
             
             if (newClubs.length > 0) {
               console.log(`📦 Извлечено новых клубов из запроса: ${newClubs.length} (всего было: ${clubs.length})`);
+              // Добавляем вывод информации о фото
+              newClubs.forEach(club => {
+                if (club.photo) {
+                  console.log(`📸 Найдено фото для ${club.name}: ${club.photo}`);
+                }
+              });
               this.clubsData.push(...newClubs);
             } else {
               console.log(`🔄 Все клубы из запроса уже были найдены ранее (${clubs.length} дубликатов)`);
@@ -445,7 +455,7 @@ export class NetworkClubsScraper {
   }
 
   private generateCSV(clubs: ClubData[]): string {
-    const header = 'Название,Адрес,Полный адрес,Страна,Почтовый код,Телефон,Все телефоны,Сайт,Все сайты,Рейтинг,Отзывы,Количество оценок,Категории,Часы работы,Социальные сети,Широта,Долгота\n';
+    const header = 'Название,Адрес,Полный адрес,Страна,Почтовый код,Телефон,Все телефоны,Сайт,Все сайты,Рейтинг,Отзывы,Количество оценок,Категории,Часы работы,Социальные сети,Широта,Долгота,Фото\n';
     const rows = clubs.map(club => {
       const lat = club.coordinates?.lat || '';
       const lon = club.coordinates?.lon || '';
@@ -454,7 +464,24 @@ export class NetworkClubsScraper {
       const categories = club.categories?.join('; ') || '';
       const socialLinks = club.socialLinks?.map(link => `${link.type}: ${link.url}`).join('; ') || '';
       
-      return `"${(club.name || '').replace(/"/g, '""')}","${(club.address || '').replace(/"/g, '""')}","${(club.fullAddress || '').replace(/"/g, '""')}","${(club.country || '').replace(/"/g, '""')}","${(club.postalCode || '').replace(/"/g, '""')}","${(club.phone || '').replace(/"/g, '""')}","${phones.replace(/"/g, '""')}","${(club.website || '').replace(/"/g, '""')}","${websites.replace(/"/g, '""')}","${club.rating || ''}","${club.reviews || ''}","${club.ratingCount || ''}","${categories.replace(/"/g, '""')}","${(club.workingHours || '').replace(/"/g, '""')}","${socialLinks.replace(/"/g, '""')}","${lat}","${lon}"`;
+      return `"${(club.name || '').replace(/"/g, '""')}",` +
+             `"${(club.address || '').replace(/"/g, '""')}",` +
+             `"${(club.fullAddress || '').replace(/"/g, '""')}",` +
+             `"${(club.country || '').replace(/"/g, '""')}",` +
+             `"${(club.postalCode || '').replace(/"/g, '""')}",` +
+             `"${(club.phone || '').replace(/"/g, '""')}",` +
+             `"${phones.replace(/"/g, '""')}",` +
+             `"${(club.website || '').replace(/"/g, '""')}",` +
+             `"${websites.replace(/"/g, '""')}",` +
+             `"${club.rating || ''}",` +
+             `"${club.reviews || ''}",` +
+             `"${club.ratingCount || ''}",` +
+             `"${categories.replace(/"/g, '""')}",` +
+             `"${(club.workingHours || '').replace(/"/g, '""')}",` +
+             `"${socialLinks.replace(/"/g, '""')}",` +
+             `"${lat}",` +
+             `"${lon}",` +
+             `"${(club.photo || '').replace(/"/g, '""')}"`;
     }).join('\n');
     
     return header + rows;
@@ -481,6 +508,7 @@ export class NetworkClubsScraper {
     console.log(`🌐 Network запросов: ${result.networkRequests}`);
     console.log(`📍 Обработано уникальных координат: ${this.processedCoordinates.size}`);
     console.log(`⏰ Время сбора: ${result.timestamp}`);
+    console.log(`📸 Всего найдено фото: ${result.photos.length}`);
     console.log(`🔗 Источник: ${result.sourceUrl}`);
     console.log('─'.repeat(50));
     

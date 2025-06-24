@@ -12,6 +12,7 @@ interface ClubData {
 interface ScrapingResult {
   totalFound: number;
   clubs: ClubData[];
+  photos: string[];
   timestamp: string;
   sourceUrl: string;
 }
@@ -72,7 +73,8 @@ export class ClubsScraper {
         totalFound: clubs.length,
         clubs: clubs,
         timestamp: new Date().toISOString(),
-        sourceUrl: yandexMapsConfig.startUrl
+        sourceUrl: yandexMapsConfig.startUrl,
+        photos: [] 
       };
 
       console.log(`\n🎉 Собрано ${clubs.length} клубов`);
@@ -210,6 +212,7 @@ export class ClubsScraper {
     console.log('\n🎯 === СВОДКА ===');
     console.log(`📊 Всего найдено клубов: ${result.totalFound}`);
     console.log(`⏰ Время сбора: ${new Date(result.timestamp).toLocaleString('ru-RU')}`);
+    console.log(`📸 Всего найдено фото: ${result.photos.length}`);
     console.log(`🌐 Источник: ${result.sourceUrl.substring(0, 100)}...`);
     
     if (result.clubs.length > 0) {

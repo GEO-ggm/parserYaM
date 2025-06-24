@@ -19,15 +19,34 @@
     "parse-regions-clubs": "npx ts-node scripts/regions-clubs-parser.ts",
     "network-scraper": "npx ts-node scripts/run-network-scraper.ts ",
     "test-region": "npx ts-node scripts/test-region.ts",
-    "list-regions": "npx ts-node scripts/test-region.ts list"
+    "list-regions": "npx ts-node scripts/test-region.ts list",
+    "cli": "npx ts-node src/clubs-parser-cli.ts",
+    "build-cli": "npm run build && pkg dist/src/clubs-parser-cli.js --targets node18-win-x64 --output clubs-parser-cli.exe --config package.json",
+    "build-exe": "npm run build && pkg dist/clubs-parser-standalone.js --targets node18-win-x64 --output clubs-parser.exe --options experimental-modules",
+    "build": "tsc"
   },
-  "keywords": ["playwright", "typescript", "testing", "e2e"],
+  "keywords": [
+    "playwright",
+    "typescript",
+    "testing",
+    "e2e"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.40.0",
     "@types/node": "^20.0.0",
-    "typescript": "^5.0.0",
-    "ts-node": "^10.9.0"
+    "pkg": "^5.8.1",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/playwright-core/**/*",
+      "results/regions-simple.json"
+    ],
+    "scripts": [
+      "dist/**/*.js"
+    ]
   }
-} 
+}
